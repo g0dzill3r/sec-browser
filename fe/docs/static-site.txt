@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/71527665/building-svelte-app-as-a-set-of-static-files
+

@@ -1,0 +1,14 @@
+.PropertyTable {
+    border-collapse: collapse;
+    border: 2px solid lightgray;
+}
+.PropertyTable tr:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
+.PropertyTable tr:first-child {
+    background-color: #f5f5f5;
+}
+.PropertyTable td, .PropertyTable th {
+    text-align: left;
+    padding: 8px;
+}
