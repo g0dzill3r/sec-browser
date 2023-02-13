@@ -4,10 +4,16 @@ type Void {
 }
 
 type Query {
+    getSystemConfiguration: SystemConfiguration
     throwException: Boolean
     noOp: Boolean
     getEnums: [Enum!]!
     delay (duration: Int): Boolean
+}
+
+type SystemConfiguration {
+    env: String!,
+    filesystem: String!
 }
 
 type Enum {
