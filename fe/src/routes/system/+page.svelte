@@ -86,7 +86,7 @@
 
 <sl-input value={server} on:input={(e) => {
     const url = e.target.value;
-    Server.setServerUrl (url); 
+    Server.setServerUrl (url);
 }}></sl-input>
 
 <h2>Configuration</h2>

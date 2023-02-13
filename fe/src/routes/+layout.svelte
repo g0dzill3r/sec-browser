@@ -2,6 +2,7 @@
     import Header from "../global/Header.svelte";
     import Footer from "../global/Footer.svelte";
     import Sidebar from "../global/Sidebar.svelte";
+    export const prerender = false;
 </script>
 
 <style>
