@@ -1,0 +1,7 @@
+#scalar Long
+scalar Any
+
+schema {
+    query: Query
+    mutation: Mutation
+}

@@ -1,0 +1,89 @@
+<IAPDIndividualReport GenOn="2023-02-11">
+    <Indvls>
+        <Indvl>
+            <Info lastNm="FISHER" firstNm="ANDREW" midNm="MUNSON" indvlPK="2917271" actvAGReg="N" link="https://adviserinfo.sec.gov/individual/summary/2917271"/>
+            <OthrNms>
+                <OthrNm lastNm="FISHER" firstNm="ANDREW" midNm="M"/>
+            </OthrNms>
+            <CrntEmps>
+                <CrntEmp orgNm="CERITY PARTNERS LLC" orgPK="151559" str1="335 MADISON AVENUE" str2="23RD FLOOR" city="NEW YORK" state="NY" cntry="United States" postlCd="10017">
+                    <CrntRgstns>
+                        <CrntRgstn regAuth="CA" regCat="RA" st="APPROVED" stDt="2020-11-09"/>
+                        <CrntRgstn regAuth="OR" regCat="RA" st="APPROVED" stDt="2021-04-01"/>
+                    </CrntRgstns>
+                    <BrnchOfLocs>
+                        <BrnchOfLoc str1="335 MADISON AVENUE" str2="23RD FLOOR" city="NEW YORK" state="NY" cntry="United States" postlCd="10017"/>
+                        <BrnchOfLoc str1="1 SANSOME STREET" str2="SUITE 3500" city="SAN FRANCISCO" state="CA" cntry="United States" postlCd="94104"/>
+                    </BrnchOfLocs>
+                </CrntEmp>
+            </CrntEmps>
+            <Exms>
+                <Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1997-12-17"/>
+            </Exms>
+            <Dsgntns>
+                <Dsgntn dsgntnNm="Chartered Financial Analyst"/>
+            </Dsgntns>
+            <PrevRgstns>
+                <PrevRgstn orgNm="CHINOOK CAPITAL MANAGEMENT LLC" orgPK="109218" regBeginDt="2002-10-21" regEndDt="2005-11-10">
+                    <BrnchOfLocs>
+                        <BrnchOfLoc city="PORTLAND" state="OR"/>
+                    </BrnchOfLocs>
+                </PrevRgstn>
+                <PrevRgstn orgNm="WORLDVIEW WEALTH ADVISORS" orgPK="138891" regBeginDt="2006-01-03" regEndDt="2020-11-10">
+                    <BrnchOfLocs>
+                        <BrnchOfLoc city="SAN FRANCISCO" state="CA"/>
+                    </BrnchOfLocs>
+                </PrevRgstn>
+            </PrevRgstns>
+            <EmpHss>
+                <EmpHs fromDt="11/2005" toDt="11/2020" orgNm="WORLDVIEW WEALTH ADVISORS" city="LAKE OSWEGO" state="OR"/>
+                <EmpHs fromDt="11/2020" orgNm="CERITY PARTNERS LLC" city="SAN FRANCISCO" state="CA"/>
+            </EmpHss>
+            <OthrBuss/>
+            <DRPs>
+                <DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="Y" hasTermination="N"/>
+            </DRPs>
+        </Indvl>
+        <Indvl>
+            <Info lastNm="Palazzolo" firstNm="Giacomo" midNm="Salvatore" indvlPK="2743807" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/2743807"/>
+            <OthrNms>
+                <OthrNm lastNm="PALAZZOLO" firstNm="SAL"/>
+                <OthrNm lastNm="PALAZZOLO" firstNm="G" midNm="SALVATORE"/>
+            </OthrNms>
+            <CrntEmps>
+                <CrntEmp orgNm="TLG ADVISORS, INC." orgPK="111052" str1="26 WEST DRY CREEK CIRCLE" str2="SUITE 800" city="LITTLETON" state="CO" cntry="United States" postlCd="80120">
+                    <CrntRgstns>
+                        <CrntRgstn regAuth="IL" regCat="RA" st="APPROVED" stDt="2013-02-01"/>
+                    </CrntRgstns>
+                    <BrnchOfLocs>
+                        <BrnchOfLoc str1="26 WEST DRY CREEK CIRCLE" str2="SUITE 800" city="LITTLETON" state="CO" cntry="United States" postlCd="80120"/>
+                        <BrnchOfLoc str1="85 W Algonquin Road, Suite 395" city="ARLINGTON HEIGHTS" state="IL" cntry="United States" postlCd="60005"/>
+                    </BrnchOfLocs>
+                </CrntEmp>
+            </CrntEmps>
+            <Exms>
+                <Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1996-08-16"/>
+                <Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="2002-09-26"/>
+            </Exms>
+            <Dsgntns/>
+            <PrevRgstns>
+                <PrevRgstn orgNm="PRUCO SECURITIES, LLC." orgPK="5685" regBeginDt="2002-10-30" regEndDt="2013-02-06">
+                    <BrnchOfLocs>
+                        <BrnchOfLoc city="MOUNT PROSPECT" state="IL"/>
+                        <BrnchOfLoc city="MT PROSPECT" state="IL"/>
+                    </BrnchOfLocs>
+                </PrevRgstn>
+            </PrevRgstns>
+            <EmpHss>
+                <EmpHs fromDt="02/2013" orgNm="The Leaders Group, Inc." city="Littleton" state="CO"/>
+                <EmpHs fromDt="08/2003" orgNm="Resource Insurance and Financial Group" city="Arlington Heights" state="IL"/>
+            </EmpHss>
+            <OthrBuss>
+                <OthrBus desc="1.) GIACOMO S. PALAZZOLO - 4/14/2008 - 85 W Algonquin Road, Suite 395, Arlington Heights, IL 60005 - Owner, Notarizing Documents, notary public, Not Invt Rel, 1 hrs/mo; 1 hrs/mo (during trading hours). 2.) RESOURCE INSURANCE AND FINANCIAL GROUP (FORMERLY RESOURCE PARTNERS CHICAGO, INC) - 8/1/2003 - 85 W Algonquin Road, Suite 395, Arlington Heights, IL 60005 - Owner/Principal, Full Service Insurance and Financial Advisory firm, Selling Group Benefits, Financial Advisory DBA, Invt Rel, 60 hrs/mo; 40 hrs/mo (during trading hours). 3.) KAPPEL AND APPEL (50% PURCHASE OF BUSINESS) - 8/13/2018 - 85 W Algonquin Road, Suite 395, Arlington Heights, IL 60005 - 50% Owner/President, Sell, maintain and service group health benefits, Group Health Benefits and Ancillary Business, Not Invt Rel, 50 hrs/mo; 40 hrs/mo (during trading hours). 4.) TLG ADVISORS, INC. - 2/1/2013 - 26 W Dry Creek Circle, Suite 800, Littleton, CO 80120 - IAR Rep, Invt Rel, IAR Business, 10 hrs/mo; 10 hrs/mo (during trading hours). 5.) Task Insurance - 1/1/2021 - 1821 Walden Office SQ 350, Schaumburg, IL 60173 - Referring Agent, Referral of property and casualty business, financial planning for clients in discovering &quot;holes&apos; in clients coverages that might lead to losses due to damage not covered by insurance and use assets to cover home or auto damages, Not Inv&apos;t Rel, 5 hrs/mo; 5 hrs/mo (during trading hours)."/>
+            </OthrBuss>
+            <DRPs>
+                <DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="Y" hasTermination="N"/>
+            </DRPs>
+        </Indvl>
+    </Indvls>
+</IAPDIndividualReport>

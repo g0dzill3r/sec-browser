@@ -1,0 +1,9 @@
+{
+  "schema": [
+    "schema",
+    "system",
+    "sec-firm",
+    "sec-firm-forminfo",
+    "sec-individual"
+  ]
+}

@@ -1,0 +1,148 @@
+extend type Mutation {
+    reloadIndividuals: SECIndividuals!
+}
+
+extend type Query {
+    secIndividuals: SECIndividuals!
+    findIndividuals (req: SECIndividualFindRequest!): SECIndividualFres!
+    individualById (id: String!): SECIndividual
+}
+
+type SECIndividuals {
+    generatedOn: String!,
+    count: Int!,
+    individuals: [SECIndividual!]!
+    # derived
+    json: Any!
+}
+
+type SECIndividual {
+    id: String!,
+    info: SECIndividualInfo!,
+    otherNms: [SECIndividualOtherName!]!,
+    currentEmployers: [SECIndividualCurrentEmployer!]!,
+    exams: [SECIndividualExam!]!,
+    designation: [SECIndividualDesignation!]!,
+    previousRegistrations: [SECIndividualPreviousRegistration!]!,
+    employmentHistory: [SECIndividualEmploymentHistory!]!,
+    otherBusiness: [SECIndividualOtherBusiness!]!,
+    drps: [SECIndividualDRP!]!
+
+    # derived
+    json: Any!
+}
+
+type SECIndividualInfo {
+    lastNm: String,
+    firstNm: String,
+    midNm: String,
+    indvlPK: String,
+    actvAGReg: String,
+    link: String,
+    sufNm: String
+}
+
+type SECIndividualOtherName {
+    lastNm: String,
+    firstNm: String,
+    midNm: String,
+    sufNm: String
+}
+
+type SECIndividualCurrentEmployer {
+     orgNm: String,
+     orgPK: String,
+     str1: String,
+     str2: String,
+     city: String,
+     state: String,
+     cntry: String,
+     postlCd: String,
+     currentRegistrations: [SECCurrentRegistration!]!,
+     branchLocations: [SECBranchLocation!]!,
+     # derived
+     firm: SECFirm
+}
+
+type SECCurrentRegistration {
+    regAuth: String,
+    regCat: String,
+    st: String,
+    stDt: String
+}
+
+type SECBranchLocation {
+    str1: String,
+    str2: String,
+    city: String,
+    state: String,
+    cntry: String,
+    postlCd: String
+}
+
+
+type SECIndividualExam {
+    exmCd: String,
+    exmNm: String,
+    exmDt: String
+}
+
+type SECIndividualDesignation {
+    dsgntnNm: String
+}
+
+type SECIndividualPreviousRegistration {
+    orgNm: String,
+    orgPK: String,
+    regBeginDt: String,
+    regEndDt: String,
+    branchLocations: [SECBranchLocation!]!
+    # derived
+    firm: SECFirm
+}
+
+type SECIndividualEmploymentHistory {
+    fromDt: String,
+    toDt: String,
+    orgNm: String,
+    city: String,
+    state: String
+}
+
+type SECIndividualOtherBusiness {
+    desc: String
+}
+
+type SECIndividualDRP {
+    hasRegAction: String,
+    hasCriminal: String,
+    hasBankrupt: String,
+    hasCivilJudc: String,
+    hasBond: String,
+    hasJudgment: String,
+    hasInvstgn: String,
+    hasCustComp: String,
+    hasTermination: String
+}
+
+input SECIndividualFilters {
+    firstName: String,
+    lastName: String,
+    id: String
+}
+
+input SECIndividualFindRequest {
+    filters: SECIndividualFilters,
+    skip: Int!,
+    limit: Int!,
+    #sort: String
+}
+
+type SECIndividualFres {
+    skip: Int!,
+    limit: Int!,
+    total: Int,
+    results: [SECIndividual!]!
+}
+
+# EOF

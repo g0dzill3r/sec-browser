@@ -1,0 +1,20 @@
+SEC - Registered Investment Advisor Data (full - XML)
+https://adviserinfo.sec.gov/compilation
+
+SEC - Registered Investment Advisor Data (partial - Excel)
+https://www.sec.gov/help/foiadocsinvafoia
+
+SEC - Registered Investment Advisor Directory (individual records in full XML)
+https://adviserinfo.sec.gov/
+
+Data Dictionary for the Excel file
+https://www.sec.gov/about/forms/formadv-part1a.pdf
+adviserinfo.sec.gov
+IAPD - Investment Adviser Public Disclosure - Homepage
+IAPD provides information on Investment Adviser firms regulated by the SEC and/or state securities regulators
+sec.govsec.gov
+SEC.gov | Information About Registered Investment Advisers and Exempt Reporting Advisers
+The Investment Adviser Information Reports' data is collected from electronic submissions of Form ADV by investment adviser firms to the Investment Adviser Registration Depository (IARD) system.
+adviserinfo.sec.gov
+IAPD - Investment Adviser Public Disclosure - Homepage
+IAPD provides information on Investment Adviser firms regulated by the SEC and/or state securities regulators

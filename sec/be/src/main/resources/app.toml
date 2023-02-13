@@ -1,0 +1,20 @@
+
+[env.localhost]
+port = 8080
+urlPrefix = "http://localhost.etherfirma.com:5173"
+debug = true
+graphTracing = true
+
+[env.localhost.local]
+resourceRoot = "/Users/crawford/Workspace/sec/sec/be/data"
+
+[env.dev]
+port = 9000
+urlPrefix = "http://localhost.etherfirma.com:3000"
+debug = true
+graphTracing = false
+
+[env.localhost.dev]
+resourceRoot = "/home/ubuntu/sec-data"
+
+# EOF

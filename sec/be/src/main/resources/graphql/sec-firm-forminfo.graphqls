@@ -1,0 +1,449 @@
+
+type SECFirmFormInfo {
+    part1A: Part1A
+}
+
+type Part1A {
+    item1: Item1
+    item2a: Item2A
+    item2b: Item2B
+    item3a: Item3A
+    item3b: Item3B
+    item3c: Item3C
+    item5a: Item5A
+    item5b: Item5B
+    item5c: Item5C
+    item5d: Item5D
+    item5e: Item5E
+    item5f: Item5F
+    item5g: Item5G
+    item5h: Item5H
+    item5i: Item5I
+    item5j: Item5J
+    item5k: Item5K
+    item5l: Item5L
+    item6a: Item6A
+    item6b: Item6B
+    item7a: Item7A
+    item7b: Item7B
+    item8a: Item8A
+    item8b: Item8B
+    item8c: Item8C
+    item8d: Item8D
+    item8e: Item8E
+    item8f: Item8F
+    item8g: Item8G
+    item8h: Item8H
+    item8i: Item8I
+    item9a: Item9A
+    item9b: Item9B
+    item9c: Item9C
+    item9d: Item9D
+    item9e: Item9E
+    item9f: Item9F   
+    item10a: Item10A
+    item11: Item11
+    item11a: Item11A
+    item11b: Item11B
+    item11c: Item11C
+    item11d: Item11D
+    item11e: Item11E   
+    item11f: Item11F
+    item11g: Item11G
+    item11h: Item11H
+}
+
+type Item1 {
+    q1f5: String
+    q1i: String
+    q1m: String
+    q1n: String
+    q10: String
+    q10desc: String
+    q1p: String
+    webaddrs: [String!]!
+}
+
+
+type Item2A {
+    q2a1: String
+    q2a2: String
+    q2a3: String
+    q2a4: String
+    q2a5: String
+    q2a6: String
+    q2a7: String
+    q2a8: String
+    q2a9: String
+    q2a10: String
+    q2a11: String
+    q2a12: String
+    q2a13: String
+}
+
+type Item2B {
+    q2B1: String
+    q2B2: String
+    q2B3: String
+}
+
+type Item3A {
+    orgFormNm: String
+    orgFormOthNm: String
+}
+
+type Item3B {
+    q3B: String
+}
+
+type Item3C {
+    stateCD: String
+    cntryNm: String
+}
+
+type Item5A {
+    ttlEmp: String
+}
+
+type Item5B {
+    q5B1: String
+    q5B2: String
+    q5B3: String
+    q5B4: String
+    q5B5: String
+    q5B6: String
+}
+
+type Item5C {
+    q5C1: String
+    q5C2: String
+    q5C1Oth: String
+}
+
+type Item5D {
+    q5D1A: String
+    q5D1B: String
+    q5D1C: String
+    q5D1D: String
+    q5D1E: String
+    q5D1F: String
+    q5D1G: String
+    q5D1H: String
+    q5D1I: String
+    q5D1J: String
+    q5D1K: String
+    q5D1L: String
+    q5D1M: String
+    q5D2A: String
+    q5D2B: String
+    q5D2C: String
+    q5D2D: String
+    q5D2E: String
+    q5D2F: String
+    q5D2G: String
+    q5D2H: String
+    q5D2I: String
+    q5D2J: String
+    q5D2K: String
+    q5D2L: String
+    q5D2M: String
+    q5DA1: String
+    q5DA2: String
+    q5DA3: String
+    q5DB1: String
+    q5DB2: String
+    q5DB3: String
+    q5DC1: String
+    q5DC2: String
+    q5DC3: String
+    q5DD1: String
+    q5DD2: String
+    q5DD3: String
+    q5DE1: String
+    q5DE2: String
+    q5DE3: String
+    q5DF1: String
+    q5DF2: String
+    q5DF3: String
+    q5DG1: String
+    q5DG2: String
+    q5DG3: String
+    q5DH1: String
+    q5DH2: String
+    q5DH3: String
+    q5DI1: String
+    q5DI2: String
+    q5DI3: String
+    q5DJ1: String
+    q5DJ2: String
+    q5DJ3: String
+    q5DK1: String
+    q5DK2: String
+    q5DK3: String
+    q5DL1: String
+    q5DL2: String
+    q5DL3: String
+    q5DM1: String
+    q5DM2: String
+    q5DM3: String
+    q5DN1: String
+    q5DN2: String
+    q5DN3: String
+    q5DN3Oth: String
+}
+
+type Item5E {
+    q5E1: String
+    q5E2: String
+    q5E3: String
+    q5E4: String
+    q5E5: String
+    q5E6: String
+    q5E7: String
+    q5E7Oth: String
+}
+
+type Item5F {
+    q5F1: String
+    q5F2A: String
+    q5F2B: String
+    q5F2C: String
+    q5F2D: String
+    q5F2E: String
+    q5F2F: String
+    q5F3: String
+}
+
+type Item5G {
+    q5G1: String
+    q5G2: String
+    q5G3: String
+    q5G4: String
+    q5G5: String
+    q5G6: String
+    q5G7: String
+    q5G8: String
+    q5G9: String
+    q5G10: String
+    q5G11: String
+    q5G12: String
+    q5G120th: String
+}
+
+type Item5H {
+    q5H: String
+    q5HMT500: String
+}
+
+type Item5I {
+    q5I1: String
+    q5I2A: String
+    q5I2B: String
+    q5I2C: String
+}
+
+type Item5J {
+    q5J1: String
+    q5J2: String
+}
+
+type Item5K {
+    q5K1: String
+    q5K2: String
+    q5K3: String
+    q5K4: String
+}
+
+type Item5L {
+    q5L1A: String
+    q5L1B: String
+    q5L1C: String
+    q5L1D: String
+    q5L1E: String
+    q5L2: String
+    q5L3: String
+    q5L4: String
+}
+
+type Item6A {
+    q6A1: String
+    q6A2: String
+    q6A3: String
+    q6A4: String
+    q6A5: String
+    q6A6: String
+    q6A7: String
+    q6A8: String
+    q6A9: String
+    q6A10: String
+    q6A11: String
+    q6A12: String
+    q6A13: String
+    q6A14: String
+    q6A14Oth: String
+}
+
+type Item6B {
+    q6B1: String
+    q6B2: String
+    q6B3: String
+}
+
+type Item7A {
+    q7A1: String
+    q7A2: String
+    q7A3: String
+    q7A4: String
+    q7A5: String
+    q7A6: String
+    q7A7: String
+    q7A8: String
+    q7A9: String
+    q7A10: String
+    q7A11: String
+    q7A12: String
+    q7A13: String
+    q7A14: String
+    q7A15: String
+    q7A16: String
+}
+
+type Item7B {
+    q7B: String
+}
+
+type Item8A {
+    q8A1: String
+    q8A2: String
+    q8A3: String
+}
+
+type Item8B {
+    q8B1: String
+    q8B2: String
+    q8B3: String
+}
+
+type Item8C {
+    q8C1: String
+    q8C2: String
+    q8C3: String
+    q8C4: String
+}
+
+type Item8D {
+    q8D: String
+}
+
+type Item8E {
+    q8E: String
+}
+
+type Item8F {
+    q8F: String
+}
+
+type Item8G {
+    q8G1: String
+    q8G2: String
+}
+
+type Item8H {
+    q8H: String
+    q8H1: String
+    q8H2: String
+}
+
+type Item8I {
+    q8I: String
+}
+
+type Item9A {
+    q9A1A: String
+    q9A1B: String
+    q9A2A: String
+    q9A2B: String
+}
+
+type Item9B {
+    q9B1A: String
+    q9B1B: String
+    q9B2A: String
+    q9B2B: String
+}
+
+type Item9C {
+    q9C1: String
+    q9C2: String
+    q9C3: String
+    q9C4: String
+}
+
+type Item9D {
+    q9D1: String
+    q9D2: String
+}
+
+type Item9E {
+    q9E: String
+}
+
+type Item9F {
+    q9F: String
+}
+
+type Item10A {
+    q10A: String
+}
+
+type Item11 {
+    q11: String
+}
+
+type Item11A {
+    q11A1: String
+    q11A2: String
+}
+
+type Item11B {
+    q11B1: String
+    q11B2: String
+}
+
+type Item11C {
+    q11C1: String
+    q11C2: String
+    q11C3: String
+    q11C4: String
+    q11C5: String
+}
+
+type Item11D {
+    q11D1: String
+    q11D2: String
+    q11D3: String
+    q11D4: String
+    q11D5: String
+}
+
+type Item11E {
+    q11E1: String
+    q11E2: String
+    q11E3: String
+    q11E4: String
+}
+
+type Item11F {
+    q11F: String
+}
+
+type Item11G {
+    q11G: String
+}
+
+type Item11H {
+    q11H1A: String
+    q11H1B: String
+    q11H1C: String
+    q11H2: String
+}

@@ -1,0 +1,97 @@
+extend type Mutation {
+    reloadFirms: SECReport!
+}
+
+extend type Query {
+    secReport: SECReport!
+    secReportByState: Any!
+    findFirms (req: SECFirmFindRequest!): SECFirmFres!
+    firmBySecId (secId: String!): SECFirm
+    firmById (id: String!): SECFirm
+}
+
+type SECReport {
+    generatedOn: String!,
+    firms: [SECFirm!]!,
+    count: Int!
+}
+
+input SECFirmFindRequest {
+    filters: SECFirmFilters,
+    skip: Int!,
+    limit: Int!,
+    #sort: String
+}
+
+input SECFirmFilters {
+    name: String,
+    id: String,
+    state: String,
+    secId: String
+}
+
+type SECFirmFres {
+    skip: Int!,
+    limit: Int!,
+    total: Int,
+    results: [SECFirm!]!
+}
+
+type SECFirm {
+    id: String!,
+    secId: String!
+    info: SECFirmInfo,
+    mainAddr: SECFirmAddress,
+    mailingAddr: SECFirmAddress,
+    registration: SECFirmRegistration,
+    noticeFiled: SECFirmNoticeFiled,
+    filing: SECFirmFiling,
+    formInfo: SECFirmFormInfo,
+    individuals: [SECIndividual!]!,
+    # derived
+    json: Any!,
+    individualsCount: Int!
+}
+
+type SECFirmRegistration {
+    firmType: String,
+    state: String,
+    date: String
+}
+
+type SECFirmNoticeFiled {
+    states: [SECFirmNoticeFiledState!]!
+}
+
+type SECFirmNoticeFiledState {
+    regltrCd: String,
+    state: String,
+    date: String
+}
+
+type SECFirmFiling {
+    date: String,
+    formVersion: String
+}
+
+type SECFirmInfo { 
+    secRegnCD: String,
+    firmCrdNb: String
+    secNb: String
+    busNm: String
+    legalNm: String
+    umbrRgstn: String
+}
+
+type SECFirmAddress { 
+    strt1: String
+    strt2: String
+    city: String
+    state: String
+    cntry: String
+    postlCd: String
+    phNb: String
+    faxNb: String
+}
+
+# EOF
