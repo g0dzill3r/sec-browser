@@ -4,11 +4,12 @@
     import Server from "$lib/Server.js";
     import PropertyTable from "../advisors/[slug]/PropertyTable.svelte";
 
-    let configuration = { "Loaded": false };
+    let configuration = { "isLoaded": false };
     let error = null;
     let loading = false;
     let elapsed = -1;
     let alert = null;
+    let server = Server.getServerUrl();
 
     async function invoke (op) {
         try {
@@ -80,6 +81,13 @@
     </sl-alert>
     <br/>
 {/if}
+
+<h2>Server</h2>
+
+<sl-input value={server} on:input={(e) => {
+    const url = e.target.value;
+    Server.setServerUrl (url); 
+}}></sl-input>
 
 <h2>Configuration</h2>
 

@@ -2,11 +2,15 @@ import _ from 'lodash';
 import {objGet} from "./Utils";
 
 class Server {
+    serverUrl = "http://localhost:8080/graphql";
 
     getServerUrl () {
-        // const url = serverUrl || document.location.origin + '/graphql';
-        const url = "http://localhost:8080/graphql";
-        return url;
+        return this.serverUrl;
+    }
+
+    setServerUrl (url) {
+        this.serverUrl = url;
+        return;
     }
 
     /**
@@ -68,7 +72,6 @@ class Server {
         }
         return vars;
     }
-
 
     async gql (query, variables, files, headers) {
         // const server = this.settings.server;
