@@ -1,6 +1,7 @@
 .DS_Store
 *~
 
+fe/npm-debug.log
 fe/node_modules
 fe/package-lock.json
 
