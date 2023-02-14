@@ -28,18 +28,25 @@ class SecService (val kodein: Kodein) : ILoggable {
     fun firmById (id: String): SECFirm? = firms.firms.find { it.id == id }
     fun individualById (id: String): SECIndividual? = individuals.individuals.find { it.id == id }
 
-    //    fun reloadFirms (): SECReport = SECAdvisors.load ()
     fun reloadFirms (): SECReport {
-        logger.info ("Reloading firms...")
-        firms =  SECAdvisors.load ()
-        mapIndividuals()
+        val elapsed = timed {
+            logger.info("Reloading firms...")
+            firms = SECReport ()
+            firms = SECAdvisors.load()
+            mapIndividuals()
+        }
+        logger.info ("${firms.firms.size} firms loaded in $elapsed ms")
         return firms
     }
 
     fun reloadIndividuals (): SECIndividuals {
-        logger.info ("Reloading individuals...")
-        individuals = SECAdvisorReps.load ()
-        mapIndividuals()
+        val elapsed = timed {
+            logger.info("Reloading individuals...")
+            individuals = SECIndividuals ()
+            individuals = SECAdvisorReps.load()
+            mapIndividuals()
+        }
+        logger.info ("${individuals.individuals.size} individuals loaded in $elapsed ms")
         return individuals
     }
 

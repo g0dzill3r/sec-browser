@@ -129,13 +129,26 @@
     });
 </script>
 
-<h1>
-    {#if firm}
+{#if firm}
+    <h1>
         {firm.info?.busNm} ({data.slug})
-    {:else}
-        Advisor: {data.slug}
+    </h1>
+    {#if firm.formInfo.part1A.item1.webaddrs.length !== 0}
+        <ul>
+        {#each firm.formInfo.part1A.item1.webaddrs as webaddr}
+            <li>
+                <a href={webaddr}>
+                    {webaddr}
+                </a>
+            </li>
+        {/each}
+        </ul>
     {/if}
-</h1>
+{:else}
+    <h1>
+        Advisor: {data.slug}
+    </h1>
+{/if}
 
 {#if loading}
     <Alert message="Loading..." />
@@ -144,13 +157,13 @@
 {/if}
 
 {#if firm}
-    <a href="https://www.sec.gov/about/forms/formadv-part1a.pdf" class="Unadorned">
-        <sl-icon name="icon-name-here">
-            https://www.sec.gov/about/forms/formadv-part1a.pdf
-        </sl-icon>
-        &nbsp;
-        Questionnaire
-    </a>
+<!--    <a href="https://www.sec.gov/about/forms/formadv-part1a.pdf" class="Unadorned">-->
+<!--        <sl-icon name="icon-name-here">-->
+<!--            https://www.sec.gov/about/forms/formadv-part1a.pdf-->
+<!--        </sl-icon>-->
+<!--        &nbsp;-->
+<!--        Questionnaire-->
+<!--    </a>-->
 
     <sl-tab-group>
         <sl-tab slot="nav" panel="info">SEC Info</sl-tab>

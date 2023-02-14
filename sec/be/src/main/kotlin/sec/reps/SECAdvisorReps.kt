@@ -51,7 +51,17 @@ object SECAdvisorReps {
     fun load (): SECIndividuals {
         val seq = getLocalFiles ()
         var all: SECIndividuals? = null
-        seq.forEach { file ->
+        seq.forEachIndexed { index, file ->
+
+            // A hack to limit the number of individuals that are loaded in the
+            // dev environment since the EC2 instance doesn't have much memory.
+
+            if (config.instance<String> ("env") == "dev") {
+                if (index > 5) {
+                    return all as SECIndividuals
+                }
+            }
+
             val reader = file.reader (StandardCharsets.UTF_8)
             val next = XMLUtil.parseAs<SECIndividuals> (reader)
             if (all == null) {

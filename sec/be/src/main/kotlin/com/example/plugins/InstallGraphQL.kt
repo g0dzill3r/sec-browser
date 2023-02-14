@@ -26,7 +26,7 @@ private val objectMapper = ObjectMapper().registerKotlinModule()
 
 fun Application.installGraphQL() {
     routing {
-        post("/graphql") {
+        post("/server") {
 
             // Figure out what kind of request this is from the content type header
 

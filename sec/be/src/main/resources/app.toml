@@ -14,7 +14,7 @@ urlPrefix = "http://localhost.etherfirma.com:3000"
 debug = true
 graphTracing = false
 
-[env.localhost.dev]
+[env.dev.local]
 resourceRoot = "/home/ubuntu/sec-data"
 
 # EOF

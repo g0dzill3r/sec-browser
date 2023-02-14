@@ -2,7 +2,7 @@ import _ from 'lodash';
 import {objGet} from "./Utils";
 
 class Server {
-    serverUrl = "http://localhost:8080/graphql";
+    serverUrl = "http://localhost:8080/server";
 
     getServerUrl () {
         return this.serverUrl;
