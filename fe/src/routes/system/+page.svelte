@@ -2,7 +2,7 @@
     import {onMount} from "svelte";
     import {maybeError, withCommas} from "$lib/Utils.js";
     import Server from "$lib/Server.js";
-    import PropertyTable from "../advisors/[slug]/PropertyTable.svelte";
+    import PropertyTable from "../firms/[slug]/PropertyTable.svelte";
 
     let configuration = { "isLoaded": false };
     let error = null;

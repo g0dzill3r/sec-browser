@@ -1,7 +1,7 @@
 <script>
     import DataTable from "./DataTable.svelte";
     import {maybeNull} from "$lib/Utils.js";
-    import PropertyTable from "../../advisors/[slug]/PropertyTable.svelte";
+    import PropertyTable from "../../firms/[slug]/PropertyTable.svelte";
 
     export let currentEmployers;
 </script>

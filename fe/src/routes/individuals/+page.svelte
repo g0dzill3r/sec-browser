@@ -117,7 +117,7 @@
                 </td>
                 <td>{indv.id}</td>
                 <td>
-                    <a href={"/advisors/" + indv.currentEmployers[0].orgPK}>
+                    <a href={"/firms/" + indv.currentEmployers[0].orgPK}>
                         {indv.currentEmployers[0].orgNm}
                     </a>
                 </td>

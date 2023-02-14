@@ -111,7 +111,7 @@
             <tr>
                 <th>{index + skip + 1}.</th>
                 <th>
-                    <a href={"/advisors/" + firm.id}>
+                    <a href={"/firms/" + firm.id}>
                         {firm.info.busNm}
                     </a>
                 </th>

@@ -1,9 +1,9 @@
 <script>
-    import "../../advisors/[slug]/PropertyTable.css";
+    import "../../firms/[slug]/PropertyTable.css";
     import {onMount} from "svelte";
     import Server from "$lib/Server.js";
     import {maybeError, maybeNull} from "$lib/Utils.js";
-    import PropertyTable from "../../advisors/[slug]/PropertyTable.svelte";
+    import PropertyTable from "../../firms/[slug]/PropertyTable.svelte";
     import DataTable from "./DataTable.svelte";
     import CurrentEmployers from "./CurrentEmployers.svelte";
     import PreviousRegistrations from "./PreviousRegistrations.svelte";
@@ -60,7 +60,7 @@
 
     function hack (it) {
         it.info.link = "<a href=\"" + indv.info.link + "\">" + indv.info.link + "</a>";  // Yes, this is a hack. :)
-        it.currentEmployers[0].orgPK = "<a href=\"/advisors/" + it.currentEmployers[0].orgPK + "\">" + it.currentEmployers[0].orgPK + "</a>";
+        it.currentEmployers[0].orgPK = "<a href=\"/firms/" + it.currentEmployers[0].orgPK + "\">" + it.currentEmployers[0].orgPK + "</a>";
         return;
     }
 

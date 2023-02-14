@@ -11,8 +11,8 @@
         ["Home", "/", "house"],
         ["System", "/system", "gear"],
         ["GraphQL", "/gql", "cloud-upload"],
-        ["Advisors", "/advisors", "person-fill"],
-        ["Advisors byState", "/advisors/byState", "globe-americas"],
+        ["Firms", "/firms", "person-fill"],
+        ["Firms byState", "/firms/byState", "globe-americas"],
         ["Individuals", "/individuals", "person"],
     ];
 </script>

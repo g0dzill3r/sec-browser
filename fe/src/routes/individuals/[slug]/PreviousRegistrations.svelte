@@ -1,7 +1,7 @@
 <script>
     import DataTable from "./DataTable.svelte";
     import {maybeNull} from "$lib/Utils.js";
-    import PropertyTable from "../../advisors/[slug]/PropertyTable.svelte";
+    import PropertyTable from "../../firms/[slug]/PropertyTable.svelte";
 
     export let previousRegistrations;
 </script>
@@ -10,7 +10,7 @@
     <h1>{pe.orgNm}</h1>
     <PropertyTable
         props={{
-            "Primary Key": "<a href=\"/advisors/" + pe.orgPK + "\">" + pe.orgPK + "</a>",
+            "Primary Key": "<a href=\"/firms/" + pe.orgPK + "\">" + pe.orgPK + "</a>",
             "Reg Begin": pe.regBeginDt,
             "Reg End": pe.regEndDt
         }}
